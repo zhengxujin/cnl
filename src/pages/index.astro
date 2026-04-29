@@ -36,49 +36,20 @@ const work = await Promise.all(
       Hi, I'm Zheng Xujin 👋🏻
     </h4>
     <div class="space-y-16">
-      <!-- 个人专业介绍 -->
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I am an International Sales Director specialized in power fittings export,
-            based in Yueqing, Zhejiang, China — the capital of electrical products in China.
+            I am engaged in power fittings business and international export trade, based in Yueqing, China.
           </p>
           <p class="animate">
-            With over 15 years of industry experience, I lead the business of YODO Electric,
-            providing reliable power fittings and electrical solutions for global customers.
+            I focus on global business cooperation, overseas customer development and electrical product supply.
           </p>
           <p class="animate">
-            I'm also a technology enthusiast, passionate about NAS deployment, home network,
-            domain management and personal website building.
+            I am also a tech enthusiast, interested in NAS, network deployment, domain management and personal website building.
           </p>
         </article>
       </section>
 
-      <!-- 核心入口：公司官网+博客+WhatsApp -->
-      <section class="animate space-y-6">
-        <h5 class="font-semibold text-black dark:text-white">
-          My Business & Links
-        </h5>
-        <ul class="flex flex-col gap-4">
-          <li>
-            <Link href="https://euodo.com" external>
-              🏭 Company
-            </Link>
-          </li>
-          <li>
-            <Link href="https://zhengxujin.wordpress.com" external>
-              📝 Personal Blog
-            </Link>
-          </li>
-          <li>
-            <Link href="https://wa.me/8613868791888" external>
-              💬 WhatsApp Business: +86 138 6879 1888
-            </Link>
-          </li>
-        </ul>
-      </section>
-
-      <!-- 最新文章 原板块完整保留 -->
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
@@ -97,7 +68,6 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <!-- 工作经历 原板块完整保留 -->
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
@@ -127,7 +97,6 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <!-- 最新项目 原板块完整保留 -->
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
@@ -146,15 +115,13 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <!-- 联系方式 完整保留：社交+WhatsApp+邮箱 -->
       <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">
           Let's Connect
         </h5>
         <article>
           <p>
-            Feel free to contact me for power fittings business cooperation,
-            technical communication or any inquiries.
+            Feel free to contact me for business cooperation or technical communication.
           </p>
         </article>
         <ul class="flex flex-wrap gap-2">
@@ -166,6 +133,12 @@ const work = await Promise.all(
               {"/"}
             </li>
           ))}
+          <li class="flex gap-x-2 text-nowrap">
+            <Link href="https://euodo.com" external aria-label="Company Official Site">
+              Company
+            </Link>
+            {"/"}
+          </li>
           <li class="flex gap-x-2 text-nowrap">
             <Link href="https://wa.me/8613868791888" external aria-label="WhatsApp Business">
               WhatsApp
